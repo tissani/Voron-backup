@@ -7,9 +7,9 @@
 # Communication interface: "CAN bus (on PD0/PD1)", or
 # Communication interface: "USB to CAN bus bridge (USB on PA11/PA12))" and CAN bus interface: "CAN bus (on PD0/PD1)".
 
-#[include mmu/base/*.cfg]
-#[include mmu/optional/client_macros.cfg]
-#[include mmu/optional/mmu_ercf_compat.cfg]
+[include mmu/base/*.cfg]
+[include mmu/optional/client_macros.cfg]
+[include mmu/optional/mmu_ercf_compat.cfg]
 #[include mmu1.cfg ]
 [include shell_command.cfg]
 [include mainsail.cfg]
